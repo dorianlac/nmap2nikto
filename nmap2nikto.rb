@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 require 'nokogiri'
 
 @doc = Nokogiri::XML(File.open(ARGV[0]));
